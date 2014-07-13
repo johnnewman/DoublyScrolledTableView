@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C583B2183BE7F700C7B0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583B1183BE7F700C7B0A7 /* Foundation.framework */; };
+		30C583B4183BE7F700C7B0A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583B3183BE7F700C7B0A7 /* CoreGraphics.framework */; };
+		30C583B6183BE7F700C7B0A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583B5183BE7F700C7B0A7 /* UIKit.framework */; };
+		30C583BC183BE7F700C7B0A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30C583BA183BE7F700C7B0A7 /* InfoPlist.strings */; };
+		30C583BE183BE7F700C7B0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C583BD183BE7F700C7B0A7 /* main.m */; };
+		30C583C2183BE7F700C7B0A7 /* DSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C583C1183BE7F700C7B0A7 /* DSTAppDelegate.m */; };
+		30C583C5183BE7F700C7B0A7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C583C3183BE7F700C7B0A7 /* Main_iPhone.storyboard */; };
+		30C583C8183BE7F700C7B0A7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C583C6183BE7F700C7B0A7 /* Main_iPad.storyboard */; };
+		30C583CB183BE7F700C7B0A7 /* DSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C583CA183BE7F700C7B0A7 /* DSTViewController.m */; };
+		30C583CD183BE7F700C7B0A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C583CC183BE7F700C7B0A7 /* Images.xcassets */; };
+		30C583D4183BE7F700C7B0A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583D3183BE7F700C7B0A7 /* XCTest.framework */; };
+		30C583D5183BE7F700C7B0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583B1183BE7F700C7B0A7 /* Foundation.framework */; };
+		30C583D6183BE7F700C7B0A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C583B5183BE7F700C7B0A7 /* UIKit.framework */; };
+		30C583DE183BE7F700C7B0A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30C583DC183BE7F700C7B0A7 /* InfoPlist.strings */; };
+		30C583E0183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C583DF183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.m */; };
+		30C583EE183BEBD100C7B0A7 /* DoublyScrolledTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C583ED183BEBD100C7B0A7 /* DoublyScrolledTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C583D7183BE7F700C7B0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C583A6183BE7F700C7B0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C583AD183BE7F700C7B0A7;
+			remoteInfo = DoublyScrolledTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30C583AE183BE7F700C7B0A7 /* DoublyScrolledTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublyScrolledTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C583B1183BE7F700C7B0A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30C583B3183BE7F700C7B0A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30C583B5183BE7F700C7B0A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30C583B9183BE7F700C7B0A7 /* DoublyScrolledTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoublyScrolledTableView-Info.plist"; sourceTree = "<group>"; };
+		30C583BB183BE7F700C7B0A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30C583BD183BE7F700C7B0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30C583BF183BE7F700C7B0A7 /* DoublyScrolledTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoublyScrolledTableView-Prefix.pch"; sourceTree = "<group>"; };
+		30C583C0183BE7F700C7B0A7 /* DSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTAppDelegate.h; sourceTree = "<group>"; };
+		30C583C1183BE7F700C7B0A7 /* DSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTAppDelegate.m; sourceTree = "<group>"; };
+		30C583C4183BE7F700C7B0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		30C583C7183BE7F700C7B0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		30C583C9183BE7F700C7B0A7 /* DSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTViewController.h; sourceTree = "<group>"; };
+		30C583CA183BE7F700C7B0A7 /* DSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTViewController.m; sourceTree = "<group>"; };
+		30C583CC183BE7F700C7B0A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30C583D2183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublyScrolledTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C583D3183BE7F700C7B0A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30C583DB183BE7F700C7B0A7 /* DoublyScrolledTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoublyScrolledTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		30C583DD183BE7F700C7B0A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30C583DF183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublyScrolledTableViewTests.m; sourceTree = "<group>"; };
+		30C583EC183BEBD100C7B0A7 /* DoublyScrolledTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublyScrolledTableView.h; sourceTree = SOURCE_ROOT; };
+		30C583ED183BEBD100C7B0A7 /* DoublyScrolledTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoublyScrolledTableView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C583AB183BE7F700C7B0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583B4183BE7F700C7B0A7 /* CoreGraphics.framework in Frameworks */,
+				30C583B6183BE7F700C7B0A7 /* UIKit.framework in Frameworks */,
+				30C583B2183BE7F700C7B0A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C583CF183BE7F700C7B0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583D4183BE7F700C7B0A7 /* XCTest.framework in Frameworks */,
+				30C583D6183BE7F700C7B0A7 /* UIKit.framework in Frameworks */,
+				30C583D5183BE7F700C7B0A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C583A5183BE7F700C7B0A7 = {
+			isa = PBXGroup;
+			children = (
+				30C583B7183BE7F700C7B0A7 /* DoublyScrolledTableView */,
+				30C583D9183BE7F700C7B0A7 /* DoublyScrolledTableViewTests */,
+				30C583B0183BE7F700C7B0A7 /* Frameworks */,
+				30C583AF183BE7F700C7B0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30C583AF183BE7F700C7B0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C583AE183BE7F700C7B0A7 /* DoublyScrolledTableView.app */,
+				30C583D2183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C583B0183BE7F700C7B0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C583B1183BE7F700C7B0A7 /* Foundation.framework */,
+				30C583B3183BE7F700C7B0A7 /* CoreGraphics.framework */,
+				30C583B5183BE7F700C7B0A7 /* UIKit.framework */,
+				30C583D3183BE7F700C7B0A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30C583B7183BE7F700C7B0A7 /* DoublyScrolledTableView */ = {
+			isa = PBXGroup;
+			children = (
+				30C583C0183BE7F700C7B0A7 /* DSTAppDelegate.h */,
+				30C583C1183BE7F700C7B0A7 /* DSTAppDelegate.m */,
+				30C583C3183BE7F700C7B0A7 /* Main_iPhone.storyboard */,
+				30C583C6183BE7F700C7B0A7 /* Main_iPad.storyboard */,
+				30C583C9183BE7F700C7B0A7 /* DSTViewController.h */,
+				30C583CA183BE7F700C7B0A7 /* DSTViewController.m */,
+				30C583CC183BE7F700C7B0A7 /* Images.xcassets */,
+				30C583B8183BE7F700C7B0A7 /* Supporting Files */,
+				30C583EC183BEBD100C7B0A7 /* DoublyScrolledTableView.h */,
+				30C583ED183BEBD100C7B0A7 /* DoublyScrolledTableView.m */,
+			);
+			path = DoublyScrolledTableView;
+			sourceTree = "<group>";
+		};
+		30C583B8183BE7F700C7B0A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C583B9183BE7F700C7B0A7 /* DoublyScrolledTableView-Info.plist */,
+				30C583BA183BE7F700C7B0A7 /* InfoPlist.strings */,
+				30C583BD183BE7F700C7B0A7 /* main.m */,
+				30C583BF183BE7F700C7B0A7 /* DoublyScrolledTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30C583D9183BE7F700C7B0A7 /* DoublyScrolledTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C583DF183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.m */,
+				30C583DA183BE7F700C7B0A7 /* Supporting Files */,
+			);
+			path = DoublyScrolledTableViewTests;
+			sourceTree = "<group>";
+		};
+		30C583DA183BE7F700C7B0A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C583DB183BE7F700C7B0A7 /* DoublyScrolledTableViewTests-Info.plist */,
+				30C583DC183BE7F700C7B0A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C583AD183BE7F700C7B0A7 /* DoublyScrolledTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C583E3183BE7F700C7B0A7 /* Build configuration list for PBXNativeTarget "DoublyScrolledTableView" */;
+			buildPhases = (
+				30C583AA183BE7F700C7B0A7 /* Sources */,
+				30C583AB183BE7F700C7B0A7 /* Frameworks */,
+				30C583AC183BE7F700C7B0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoublyScrolledTableView;
+			productName = DoublyScrolledTableView;
+			productReference = 30C583AE183BE7F700C7B0A7 /* DoublyScrolledTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C583D1183BE7F700C7B0A7 /* DoublyScrolledTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C583E6183BE7F700C7B0A7 /* Build configuration list for PBXNativeTarget "DoublyScrolledTableViewTests" */;
+			buildPhases = (
+				30C583CE183BE7F700C7B0A7 /* Sources */,
+				30C583CF183BE7F700C7B0A7 /* Frameworks */,
+				30C583D0183BE7F700C7B0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C583D8183BE7F700C7B0A7 /* PBXTargetDependency */,
+			);
+			name = DoublyScrolledTableViewTests;
+			productName = DoublyScrolledTableViewTests;
+			productReference = 30C583D2183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C583A6183BE7F700C7B0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DST;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "John Newman";
+				TargetAttributes = {
+					30C583D1183BE7F700C7B0A7 = {
+						TestTargetID = 30C583AD183BE7F700C7B0A7;
+					};
+				};
+			};
+			buildConfigurationList = 30C583A9183BE7F700C7B0A7 /* Build configuration list for PBXProject "DoublyScrolledTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C583A5183BE7F700C7B0A7;
+			productRefGroup = 30C583AF183BE7F700C7B0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C583AD183BE7F700C7B0A7 /* DoublyScrolledTableView */,
+				30C583D1183BE7F700C7B0A7 /* DoublyScrolledTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C583AC183BE7F700C7B0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583C8183BE7F700C7B0A7 /* Main_iPad.storyboard in Resources */,
+				30C583CD183BE7F700C7B0A7 /* Images.xcassets in Resources */,
+				30C583C5183BE7F700C7B0A7 /* Main_iPhone.storyboard in Resources */,
+				30C583BC183BE7F700C7B0A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C583D0183BE7F700C7B0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583DE183BE7F700C7B0A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C583AA183BE7F700C7B0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583EE183BEBD100C7B0A7 /* DoublyScrolledTableView.m in Sources */,
+				30C583C2183BE7F700C7B0A7 /* DSTAppDelegate.m in Sources */,
+				30C583CB183BE7F700C7B0A7 /* DSTViewController.m in Sources */,
+				30C583BE183BE7F700C7B0A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C583CE183BE7F700C7B0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C583E0183BE7F700C7B0A7 /* DoublyScrolledTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C583D8183BE7F700C7B0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C583AD183BE7F700C7B0A7 /* DoublyScrolledTableView */;
+			targetProxy = 30C583D7183BE7F700C7B0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30C583BA183BE7F700C7B0A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C583BB183BE7F700C7B0A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30C583C3183BE7F700C7B0A7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C583C4183BE7F700C7B0A7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		30C583C6183BE7F700C7B0A7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C583C7183BE7F700C7B0A7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		30C583DC183BE7F700C7B0A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C583DD183BE7F700C7B0A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C583E1183BE7F700C7B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30C583E2183BE7F700C7B0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C583E4183BE7F700C7B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoublyScrolledTableView/DoublyScrolledTableView-Prefix.pch";
+				INFOPLIST_FILE = "DoublyScrolledTableView/DoublyScrolledTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30C583E5183BE7F700C7B0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoublyScrolledTableView/DoublyScrolledTableView-Prefix.pch";
+				INFOPLIST_FILE = "DoublyScrolledTableView/DoublyScrolledTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30C583E7183BE7F700C7B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoublyScrolledTableView.app/DoublyScrolledTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoublyScrolledTableView/DoublyScrolledTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoublyScrolledTableViewTests/DoublyScrolledTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30C583E8183BE7F700C7B0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoublyScrolledTableView.app/DoublyScrolledTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoublyScrolledTableView/DoublyScrolledTableView-Prefix.pch";
+				INFOPLIST_FILE = "DoublyScrolledTableViewTests/DoublyScrolledTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C583A9183BE7F700C7B0A7 /* Build configuration list for PBXProject "DoublyScrolledTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C583E1183BE7F700C7B0A7 /* Debug */,
+				30C583E2183BE7F700C7B0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C583E3183BE7F700C7B0A7 /* Build configuration list for PBXNativeTarget "DoublyScrolledTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C583E4183BE7F700C7B0A7 /* Debug */,
+				30C583E5183BE7F700C7B0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30C583E6183BE7F700C7B0A7 /* Build configuration list for PBXNativeTarget "DoublyScrolledTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C583E7183BE7F700C7B0A7 /* Debug */,
+				30C583E8183BE7F700C7B0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C583A6183BE7F700C7B0A7 /* Project object */;
+}
